@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SplashWithFragments</string>
+    <string name="fragment1">Hello fragment 1</string>
+    <string name="fragment2">Hello fragment 2</string>
+</resources>

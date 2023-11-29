@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sleep time in second:"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_toEndOf="@+id/textview"
+        android:layout_alignTop="@id/textview"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="time"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textview"
+        android:text="Run asynk Task"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/processedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/button"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username :"
+        android:textSize="25dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="50dp"/>
+
+    <EditText
+        android:id="@+id/etuname"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="enter name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@+id/uname"/>
+
+    <TextView
+        android:id="@+id/ucity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City :"
+        android:textSize="25dp"
+        android:layout_below="@+id/uname"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"/>
+
+    <EditText
+        android:id="@+id/etucity"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="enter city"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etuname"
+        android:layout_marginLeft="90dp"
+        android:layout_toRightOf="@+id/ucity"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/ucity"/>
+
+</RelativeLayout>

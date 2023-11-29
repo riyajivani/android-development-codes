@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Shiddat">Shiddat</string>
+    <string name="DilIbadat">DilIbadat</string>
+    <string name="Unstoppable">Unstoppable</string>
+    <string name="Tumsehi">Tum se hi</string>
+    <string name="banzara">banzara</string>
+    <string name="ishqWalaLove">ishqWalaLove</string>
+    <string name="Senorita">Senorita</string>
+    <string name="WorthNothing">WorthNothing</string>
+    <string name="SanamTeriKasam">SanamTeriKasam</string>
+    <string name="JabKioBaat">JabKioBaat</string>
+    <string name="DatingMyself">DatingMyself</string>
+    <string name="OmSantiOm">OmSantiOm</string>
+    <string name="AeDilHaiMUshkil">AeDilHaiMUshkil</string>
+    <string name="TeraChehra">TeraChehra</string>
+    <string name="Barbaadiyan">Barbaadiyan</string>
+</resources>

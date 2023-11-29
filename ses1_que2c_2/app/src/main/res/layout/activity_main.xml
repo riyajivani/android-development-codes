@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Lab Number -->
+    <TextView
+        android:id="@+id/labNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Number:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/labNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/labNumberTextView"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Lab Number"/>
+
+    <!-- Lab Name -->
+    <TextView
+        android:id="@+id/labNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/labNumberEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/labNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/labNameTextView"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Lab Name"/>
+
+    <!-- Lab Amenities -->
+    <TextView
+        android:id="@+id/labAmenitiesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Amenities:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/labNameEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/labAmenitiesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/labAmenitiesTextView"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Lab Amenities"/>
+
+</RelativeLayout>

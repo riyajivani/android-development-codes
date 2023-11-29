@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/videoButton"
+        android:backgroundTint="@color/white"
+        android:layout_margin="50dp"
+        />
+
+    <Button
+        android:id="@+id/videoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mine"
+        android:text="shoot"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="120dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/videoButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/mine"
+        android:text="image"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/videoButton"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

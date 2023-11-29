@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- name -->
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/nameTV"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Name"/>
+
+    <!-- email-->
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/nameET"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/emailTV"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Email"/>
+
+
+    <!-- skill-->
+    <TextView
+        android:id="@+id/skillTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKILLS:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/emailET"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/skillET"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/skillTV"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Skill"/>
+
+    <Button
+        android:id="@+id/submitB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_below="@id/skillET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:backgroundTint="@color/grey"
+    />
+</RelativeLayout>
